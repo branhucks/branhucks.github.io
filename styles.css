@@ -19,6 +19,7 @@ a {
     margin: 10px;
     background: #94B49F;
     border-radius: 20px;
+    display: flex;
 }
 
 .assign img {
