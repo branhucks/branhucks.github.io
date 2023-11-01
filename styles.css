@@ -8,14 +8,21 @@ h1 {
     text-align: center;
 }
 
+a {
+    text-decoration: none; 
+    color: midnightblue;
+}
+
 .assign {
     display: flex;
     padding: 10px;
     margin: 10px;
     background: #94B49F;
+    border-radius: 20px;
 }
 
 .assign img {
     width: 200px;
     padding: 10px;
+    border: 2px solid midnightblue; 
 }
