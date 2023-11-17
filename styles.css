@@ -1,11 +1,14 @@
 body {
     background: #B4CFB0;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
     color: white;
     text-align: center;
+    width: 100%;
 }
 
 a {
