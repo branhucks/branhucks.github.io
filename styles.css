@@ -1,5 +1,5 @@
 body {
-    background: #B4CFB0;
+    background: #94B49F;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-wrap: wrap;
@@ -17,9 +17,9 @@ a {
 }
 
 .assign {
-    padding: 10px;
+    background-color: #B4CFB0;
     margin: 10px;
-    background: #94B49F;
+    padding: 10px;
     border-radius: 20px;
     width: 20%;
     box-shadow: 8px 8px white;
@@ -30,5 +30,4 @@ a {
     width: 200px;
     padding: 10px;
     border: 2px solid white;
-    border-radius: 10px;
 }
