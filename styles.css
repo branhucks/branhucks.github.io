@@ -1,5 +1,5 @@
 body {
-    background: #A7BEAE;
+    background: #94B49F;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +13,7 @@ h1 {
 }
 
 a:hover {
-    color: #A7BEAE;
+    color: #94B49F;
     width: 100%;
     display: block;
 }
