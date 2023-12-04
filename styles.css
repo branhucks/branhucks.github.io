@@ -1,32 +1,39 @@
 body {
-    background: #B4CFB0;
+    background: #A7BEAE;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-wrap: wrap;
 }
 
 h1 {
-    color: white;
+    color: #B85042;
     text-align: center;
     width: 100%;
+    display: block;
+}
+
+a:hover {
+    color: #A7BEAE;
+    width: 100%;
+    display: block;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #B85042;
 }
 
 p {
-    color: white;
+    color: #B85042;
 }
 
 .assign {
-    background-color: #94B49F;
+    background-color: #E7E8D1;
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
     width: 20%;
-    box-shadow: 8px 8px white;
+    box-shadow: 8px 8px #B85042;
     display: block;
 }
 
