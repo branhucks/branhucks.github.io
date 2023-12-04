@@ -35,10 +35,17 @@ p {
     width: 20%;
     box-shadow: 8px 8px #B85042;
     display: block;
+    text-align: center;
 }
 
 .assign img {
     width: 200px;
     padding: 10px;
-    border: 2px solid white;
+    border: 2px solid #B85042;
+    display: inline-block;
+}
+
+.assign p,
+a {
+    text-align: left;
 }
