@@ -12,19 +12,26 @@ h1 {
     display: block;
 }
 
-a:hover {
-    color: #94B49F;
-    width: 100%;
-    display: block;
-}
-
 a {
     text-decoration: none;
     color: #B85042;
 }
 
+a:hover {
+    color: #94B49F;
+}
+
 p {
     color: #B85042;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+img:hover {
+    transform: scale(1.02);
 }
 
 .assign {
@@ -40,9 +47,12 @@ p {
 
 .assign img {
     width: 200px;
-    padding: 10px;
     border: 2px solid #B85042;
     display: inline-block;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
 }
 
 .assign p,
